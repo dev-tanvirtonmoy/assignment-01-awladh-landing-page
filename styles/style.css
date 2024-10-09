@@ -17,3 +17,36 @@ body {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+
+/* Shared styles */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.btn, outline{
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 16px 24px;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+.outline:hover {
+    color: #fff;
+    background-color: #0D1321;
+}
+/* Navbar section CSS start from here */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+nav .logo {
+    color: #0D1321;
+    font-size: 28px;
+    font-weight: 800;
+}
+/* Navbar section CSS end here */
