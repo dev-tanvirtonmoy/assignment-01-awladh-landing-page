@@ -23,6 +23,9 @@ body {
     max-width: 1140px;
     margin: 0 auto;
 }
+button {
+    cursor: pointer;
+}
 .btn{
     color: #fff;
     font-size: 20px;
@@ -184,3 +187,42 @@ nav .logo {
     border-radius: 16px;
 }
 /* Inspiration section CSS end here */
+
+/* Target section CSS start from here */
+.target {
+    margin: 90px 0;
+}
+.target-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+    gap: 24px;
+}
+.target-card-container .card {
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-card-container .card .card-title {
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-bottom: 8px;
+}
+.target-card-container .card .card-description {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+.target-card-container .card a {
+    color: #0D1321
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+/* Target section CSS end here */
