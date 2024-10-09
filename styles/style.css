@@ -37,14 +37,43 @@ body {
     color: #0D1321;
     background: none;
 }
+.btn-small {
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border: 1px solid #0D1321;
+    background: none;
+    transition: all 0.3s ease;
+
+}
 .outline {
     border: 1px solid #0D1321;
     color: #0D1321;
     background: none;
 }
-.outline:hover {
+.outline:hover, .btn-small:hover {
     color: #fff;
     background-color: #0D1321;
+}
+.section-head {
+    width: 950px;
+    text-align: center;
+    margin-inline: auto;
+    margin-bottom: 48px;
+}
+.section-heading {
+    color: #0D1321;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.section-heading-description {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
 }
 /* Navbar section CSS start from here */
 nav {
@@ -94,3 +123,51 @@ nav .logo {
 }
 
 /* Hero area CSS end here */
+
+/* Whydev section start from here */
+.whydev {
+    background: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
+    margin: 70px 0 90px;
+    padding: 95px 80px;
+}
+.whydev-item-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.whydev-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+.whydev-item-2 {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+.item-content {
+    width: 477px;
+}
+.item-content .content-heading{
+    color: rgba(13, 19, 33, 0.70);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.item-content p {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+/* Whydev section end here */
