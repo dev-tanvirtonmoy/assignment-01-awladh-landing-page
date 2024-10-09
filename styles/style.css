@@ -23,15 +23,24 @@ body {
     max-width: 1140px;
     margin: 0 auto;
 }
-.btn, outline{
-    color: #0D1321;
+.btn{
+    color: #fff;
     font-size: 20px;
     font-weight: 600;
     padding: 16px 24px;
-    border: 1px solid #0D1321;
     border-radius: 8px;
-    background: transparent;
+    background: #0D1321;
     transition: all 0.3s ease;
+}
+.btn:hover {
+    border: 1px solid #0D1321;
+    color: #0D1321;
+    background: none;
+}
+.outline {
+    border: 1px solid #0D1321;
+    color: #0D1321;
+    background: none;
 }
 .outline:hover {
     color: #fff;
@@ -50,3 +59,38 @@ nav .logo {
     font-weight: 800;
 }
 /* Navbar section CSS end here */
+
+/* Hero area CSS start from here */
+.hero-area {
+    background: url(../images/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+.hero-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-area .hero-area-content{
+    text-align: center;
+    max-width: 998px;
+    margin: 0 auto;
+}
+.hero-area .hero-area-content .hero-title {
+    color: #0D1321;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    margin-bottom: 32px;
+}
+.hero-area .hero-area-content .hero-description {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+/* Hero area CSS end here */
