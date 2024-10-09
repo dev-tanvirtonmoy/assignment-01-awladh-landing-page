@@ -1,0 +1,19 @@
+/* "Azeret Mono" font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a,a:hover {
+    text-decoration: none;
+}
+ul,ol,li {
+    list-style: none;
+}
+body {
+    font-family: "Azeret Mono", monospace;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
