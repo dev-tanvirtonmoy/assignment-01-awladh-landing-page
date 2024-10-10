@@ -266,3 +266,69 @@ nav .logo {
     text-decoration-line: underline;
 }
 /* Next target section CSS end here */
+
+/* Support section CSS start from here */
+.support {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/handshake.jpg);
+    height: 315px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.support-section-content {
+    max-width: 730px;
+    margin: 0 auto;
+    text-align: center;
+}
+.support-section-content h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.support-section-content p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+    max-width: 606px;
+    margin-inline: auto;
+}
+.support-section-content form {
+    display: flex;
+    gap: 16px;
+}
+.support-section-content form input{
+    width: 100%;
+    padding: 18px 20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    outline: none;
+    border-radius: 8px;
+    background: #fff;
+}
+.support-section-content form input::placeholder {
+    color: rgba(13, 19, 33, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Azeret Mono", monospace;
+}
+.support-section-content form button {
+    padding: 18px 20px;
+    border-radius: 8px;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Support section CSS end here */
+
+/* Footer section CSS start from here */
+
+/* Footer section CSS end here */
